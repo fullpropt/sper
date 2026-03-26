@@ -1,0 +1,21 @@
+# Railway Configuration
+# Este arquivo define o comportamento do deploy no Railway
+
+build:
+  builder: STATIC
+  
+deploy:
+  startCommand: "python3 -m http.server $PORT"
+  healthcheckPath: "/"
+  healthcheckTimeout: 100
+  
+# Variáveis de ambiente necessárias (configure no painel do Railway):
+# - API_KEY: Chave da API do painel
+# - GOOGLE_CLIENT_ID: Client ID do OAuth Google
+# - GTM_ID: Google Tag Manager ID
+# - FB_PIXEL: Facebook Pixel ID
+# - ADMIN_USER: Usuário admin padrão
+# - ADMIN_PASS: Senha admin padrão
+
+# NUNCA coloque valores reais aqui!
+# Use o painel do Railway: Settings > Variables

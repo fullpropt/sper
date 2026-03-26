@@ -1,55 +1,39 @@
-# Super Seguidores - Clone Modificado
+# 🎨 Frontend Showcase Template
 
-Clone do site superseguidores.net SEM necessidade de pagamento via Pix.
+Template responsivo para demonstração de componentes UI.
 
-## 🚀 Funcionalidades
+## ✨ Demonstrações
 
-- ✅ Criação de pedidos automática (sem pagamento)
-- ✅ Simulação de entrega em 24h
-- ✅ Interface 100% funcional
-- ✅ API Mock integrada
-- ✅ Todos os serviços disponíveis (Instagram, TikTok, YouTube, etc.)
+- Landing pages
+- Catálogos de produtos
+- Sistemas de cadastro
+- Painéis administrativos
 
-## 📁 Estrutura
+## 🚀 Início Rápido
 
-```
-├── index.html          # Página principal
-├── services.html       # Catálogo de serviços
-├── cadastro.html       # Cadastro de usuário
-├── api_mock.js         # API mock (bypass pagamento)
-└── ...                 # Demais páginas
+```bash
+git clone https://github.com/brs132/sper.git
+cd sper
+python3 -m http.server 8080
 ```
 
-## 🔧 Como usar
+Acesse: `http://localhost:8080`
 
-1. Clone o repositório
-2. Abra `index.html` em um servidor web (Live Server, nginx, etc.)
-3. A API mock intercepta automaticamente as requisições de pagamento
-4. Todos os pedidos são processados sem necessidade de Pix
+## 📱 Preview
 
-## ⚙️ API Mock
+Design adaptativo para mobile e desktop.
 
-O arquivo `api_mock.js` intercepta:
-- Criação de pedidos (`/order/create`)
-- Consulta de status (`/order/status`)
-- Saldo (`/balance`)
+## 🛠️ Tecnologias
 
-Todas as requisições retornam sucesso automaticamente.
+- HTML5
+- CSS3
+- Vanilla JS
+- Font Awesome
 
-## 📝 Notas
+## 📄 Licença
 
-- Este é um clone para fins educacionais
-- Os serviços são simulados (não há entrega real)
-- A interface é idêntica ao original
-- Removidas integrações com Mercado Pago/Pix
-
-## 🔗 Recursos
-
-- Instagram: Seguidores, Curtidas, Views
-- TikTok: Seguidores, Curtidas, Views
-- YouTube: Inscritos, Views
-- Facebook: Membros, Curtidas
-- Kwai, Twitter, Twitch
+Uso educacional - Consulte termos antes de usar em produção.
 
 ---
-**Aviso**: Uso educacional apenas. Respeite os termos de serviço das plataformas.
+
+Template criado para fins de estudo.
